@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha --recursive"
+    "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit"
   },
   "author": "P. Asimakopoulos",
   "license": "GPL-3.0",
